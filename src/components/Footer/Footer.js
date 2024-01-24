@@ -22,9 +22,10 @@ function Quote() {
 }
 
 function Copyright() {
+  const currentYear = new Date().getFullYear();
     return (
         <div className='copy_r'>
-            <p>copyright &copy; Dhananjaya. 2023 All rights reserved.</p>
+            <p>copyright &copy; Dhananjaya. {currentYear}  All rights reserved.</p>
         </div>
     )
 }
