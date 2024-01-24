@@ -1,3 +1,7 @@
+# Porfolio
+
+## Description
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +72,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository: git clone [https://github.com/your-username/your-repo.git](https://github.com/IT21313370/Portfolio.git)
+2. Navigate to the project directory: cd your-repo
+3. [Add any other necessary steps]
+
+
+## Contribution Guidelines
+
+If you find any improvements or would like to contribute, feel free to follow these steps:
+
+1. Fork the repository
+2. Create a new branch: git checkout -b feature/your-feature
+3. Make your changes
+4. Commit your changes: git commit -m 'Add your message here'
+5. Push to the branch: git push origin feature/your-feature
+6. Open a pull request
+
+## Technologies Used
+
+- React
+
+Happy coding!
