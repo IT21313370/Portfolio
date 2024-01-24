@@ -24,7 +24,7 @@ function Quote() {
 function Copyright() {
     return (
         <div className='copy_r'>
-            <p>copyright &copy; 2023 All rights reserved.</p>
+            <p>copyright &copy; Dhananjaya. 2023 All rights reserved.</p>
         </div>
     )
 }
