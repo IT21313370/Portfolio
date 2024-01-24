@@ -1,0 +1,102 @@
+/* Common styles for .navbar and .nav-list */
+.navbar {
+  width: 100%;
+  height: 8vh; /* Adjust the height as needed */
+  padding: 1%;
+  display: flex;
+  background: #ffffff;
+}
+
+.nav-list {
+  flex: 1; /* Take up all available space */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  padding: 1%;
+  
+}
+
+.page-links {
+  display: flex;
+  
+}
+
+.contact-links {
+  display: flex;
+  
+}
+
+.nav-link {
+  margin: 0;
+  text-align: center;
+  list-style: none;
+  
+}
+
+.nav-link .link-clicks {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 50px;
+  color: rgb(14, 109, 187);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-link .link-clicks:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Remove margin and padding from ul elements */
+.page-links ul,
+.contact-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.floatingBtn {
+  position: fixed;
+  bottom: 20px; /* Adjust the bottom distance */
+  right: 20px; /* Adjust the right distance */
+  background-color: transparent; /* Set the button background color */
+  color: #fff; /* Set the button text color */
+  border: none;
+  border-radius: 50%; /* Make the button round */
+  padding: 0;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 10vh; /* Adjust the height for smaller screens */
+    width: 100%;
+    padding: 5%;
+    
+  }
+
+  .nav-list {
+    flex-direction: column; /* Stack the nav-links vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .page-links,
+  .contact-links {
+    width: 100%; /* Take up full width on smaller screens */
+    padding: 0;
+    justify-content: center; /* Center the links on smaller screens */
+  }
+
+  .nav-link a {
+    margin-left: 0; /* Remove the left margin on smaller screens */
+    margin-bottom: 10px; /* Add some bottom margin between links */
+  }
+}
